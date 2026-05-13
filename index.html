@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Official website of Curry Coders (FTC Team #XXXX) — a student-built competitive robotics team participating in the FIRST Tech Challenge." />
+  <title>Curry Coders — FTC Team #XXXX</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ====== NAVIGATION ====== -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">
+        <span class="brand-mark">⚙</span>
+        <span class="brand-text">Curry <span class="accent">Coders</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#team">Team</a>
+        <a href="#robot">Build</a>
+        <a href="#goals">Goals</a>
+        <a href="#sponsors">Sponsors</a>
+        <a href="#contact" class="btn btn-sm">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ====== HERO ====== -->
+  <section id="home" class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <p class="eyebrow">FIRST Tech Challenge · Rookie Season 2026–2027</p>
+      <h1 class="hero-title">
+        Engineering the <span class="grad">future</span>,<br />
+        one robot at a time.
+      </h1>
+      <p class="hero-sub">
+        We're <strong>Curry Coders</strong> (Team #XXXX) — a student-led FTC robotics team designing, building,
+        and programming competitive robots while inspiring the next generation of innovators.
+      </p>
+      <div class="hero-cta">
+        <a href="#robot" class="btn btn-primary">Follow Our Build</a>
+        <a href="#team" class="btn btn-ghost">Meet the Team →</a>
+      </div>
+      <dl class="hero-stats">
+        <div><dt>8</dt><dd>Members</dd></div>
+        <div><dt>1st</dt><dd>Season</dd></div>
+        <div><dt>∞</dt><dd>Iterations</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT ====== -->
+  <section id="about" class="section">
+    <div class="container grid-2">
+      <div>
+        <p class="section-eyebrow">About Us</p>
+        <h2 class="section-title">Who we are.</h2>
+        <p class="lede">
+          We're a tight-knit team of <strong>8 student engineers, programmers, and designers</strong>
+          competing in the FIRST Tech Challenge. From CAD to code, from drive practice to outreach —
+          every part of our robot and our team is built by us.
+        </p>
+        <p>
+          Our mission is to make competitive robotics accessible, fun, and rigorous. We believe great
+          engineering happens when curiosity meets craftsmanship, and we work hard to embody both
+          on and off the field.
+        </p>
+      </div>
+      <div class="pillars">
+        <div class="pillar">
+          <div class="pillar-icon">🛠</div>
+          <h3>Design &amp; Build</h3>
+          <p>CAD-first prototyping, custom fabrication, and iterative engineering reviews.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">💻</div>
+          <h3>Programming</h3>
+          <p>Autonomous routines, computer vision, and clean, version-controlled code.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">🤝</div>
+          <h3>Outreach</h3>
+          <p>Mentoring younger students and growing STEM in our community.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">🏆</div>
+          <h3>Competition</h3>
+          <p>Driven by gracious professionalism and the pursuit of continuous improvement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== TEAM ====== -->
+  <section id="team" class="section section-alt">
+    <div class="container">
+      <p class="section-eyebrow center">Our Team</p>
+      <h2 class="section-title center">The eight behind the machine.</h2>
+      <p class="section-sub center">Each member brings their own discipline, perspective, and skill set.</p>
+
+      <div class="team-grid">
+        <!-- Member 1 -->
+        <article class="member">
+          <div class="member-photo" data-initials="M1"></div>
+          <div class="member-body">
+            <h3>Member One</h3>
+            <p class="role">Team Captain · Drive Coach</p>
+            <p class="bio">Short bio. Replace with what this member loves about robotics and what they bring to the team.</p>
+          </div>
+        </article>
+        <!-- Member 2 -->
+        <article class="member">
+          <div class="member-photo" data-initials="M2"></div>
+          <div class="member-body">
+            <h3>Member Two</h3>
+            <p class="role">Lead Programmer</p>
+            <p class="bio">Short bio goes here. Highlight subsystems they own or skills they've grown.</p>
+          </div>
+        </article>
+        <!-- Member 3 -->
+        <article class="member">
+          <div class="member-photo" data-initials="M3"></div>
+          <div class="member-body">
+            <h3>Member Three</h3>
+            <p class="role">Mechanical Lead</p>
+            <p class="bio">Short bio goes here. CAD, fabrication, and tolerancing specialist.</p>
+          </div>
+        </article>
+        <!-- Member 4 -->
+        <article class="member">
+          <div class="member-photo" data-initials="M4"></div>
+          <div class="member-body">
+            <h3>Member Four</h3>
+            <p class="role">Electrical Lead</p>
+            <p class="bio">Short bio goes here. Wiring, sensors, and power management.</p>
+          </div>
+        </article>
+        <!-- Member 5 -->
+        <article class="member">
+          <div class="member-photo" data-initials="M5"></div>
+          <div class="member-body">
+            <h3>Member Five</h3>
+            <p class="role">Robot Driver</p>
+            <p class="bio">Short bio goes here. Match strategy, scouting, and field awareness.</p>
+          </div>
+        </article>
+        <!-- Member 6 -->
+        <article class="member">
+          <div class="member-photo" data-initials="M6"></div>
+          <div class="member-body">
+            <h3>Member Six</h3>
+            <p class="role">Software Engineer</p>
+            <p class="bio">Short bio goes here. Autonomous, vision, and odometry.</p>
+          </div>
+        </article>
+        <!-- Member 7 -->
+        <article class="member">
+          <div class="member-photo" data-initials="M7"></div>
+          <div class="member-body">
+            <h3>Member Seven</h3>
+            <p class="role">Outreach &amp; Media</p>
+            <p class="bio">Short bio goes here. Engineering portfolio, social, and community events.</p>
+          </div>
+        </article>
+        <!-- Member 8 -->
+        <article class="member">
+          <div class="member-photo" data-initials="M8"></div>
+          <div class="member-body">
+            <h3>Member Eight</h3>
+            <p class="role">Design &amp; Strategy</p>
+            <p class="bio">Short bio goes here. Concept sketches, season strategy, and review prep.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== BUILD PROGRESS ====== -->
+  <section id="robot" class="section">
+    <div class="container">
+      <p class="section-eyebrow">Build Roadmap</p>
+      <h2 class="section-title">How we'll build our first robot.</h2>
+      <p class="section-sub">
+        Our rookie season kicks off this fall. Here's our plan from game reveal to competition.
+      </p>
+
+      <div class="build-progress">
+        <div class="phase">
+          <div class="phase-num">01</div>
+          <div class="phase-body">
+            <h4>Game Analysis &amp; Strategy</h4>
+            <p>Breaking down the season's challenge and deciding what to build.</p>
+          </div>
+          <div class="phase-status">Upcoming</div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-num">02</div>
+          <div class="phase-body">
+            <h4>CAD &amp; Mechanical Design</h4>
+            <p>Modeling subsystems in CAD and validating fit, motion, and tolerance.</p>
+          </div>
+          <div class="phase-status">Upcoming</div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-num">03</div>
+          <div class="phase-body">
+            <h4>Prototyping</h4>
+            <p>Rapid mockups to test mechanisms before committing to final fabrication.</p>
+          </div>
+          <div class="phase-status">Upcoming</div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-num">04</div>
+          <div class="phase-body">
+            <h4>Fabrication &amp; Assembly</h4>
+            <p>Cutting, machining, and assembling the final robot.</p>
+          </div>
+          <div class="phase-status">Upcoming</div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-num">05</div>
+          <div class="phase-body">
+            <h4>Programming &amp; Tuning</h4>
+            <p>TeleOp, autonomous routines, sensor calibration, and computer vision.</p>
+          </div>
+          <div class="phase-status">Upcoming</div>
+        </div>
+
+        <div class="phase">
+          <div class="phase-num">06</div>
+          <div class="phase-body">
+            <h4>Driver Practice &amp; Iteration</h4>
+            <p>Drilling matches and refining the design based on what we learn.</p>
+          </div>
+          <div class="phase-status">Upcoming</div>
+        </div>
+      </div>
+
+      <div class="reveal-note">
+        <div>
+          <h3>Robot reveal coming soon.</h3>
+          <p>Check back as we move through the season — we'll post photos, CAD renders, and progress updates here.</p>
+        </div>
+        <a href="#contact" class="btn btn-ghost">Get build updates →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SEASON GOALS ====== -->
+  <section id="goals" class="section section-alt">
+    <div class="container">
+      <p class="section-eyebrow center">Season Goals</p>
+      <h2 class="section-title center">What we're working toward.</h2>
+
+      <div class="timeline">
+        <div class="t-item">
+          <div class="t-date">Fall '26</div>
+          <div class="t-card">
+            <h4>Build a competitive rookie robot.</h4>
+            <p>Take the season's game from analysis through CAD, fabrication, and tuning — finishing with a robot we're proud to drive.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-date">Winter '26</div>
+          <div class="t-card">
+            <h4>Compete in our first qualifier.</h4>
+            <p>Show up prepared with a working bot, a strong engineering portfolio, and a team that operates with gracious professionalism.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-date">Year-round</div>
+          <div class="t-card">
+            <h4>Grow STEM in our community.</h4>
+            <p>Mentor younger students, run outreach events, and inspire the next generation of engineers — on and off the field.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SPONSORS ====== -->
+  <section id="sponsors" class="section">
+    <div class="container">
+      <p class="section-eyebrow center">Sponsors &amp; Partners</p>
+      <h2 class="section-title center">Powered by our supporters.</h2>
+      <p class="section-sub center">
+        We couldn't compete without the generosity of the organizations who believe in our mission.
+      </p>
+
+      <div class="sponsor-grid">
+        <div class="sponsor-card">Sponsor 1</div>
+        <div class="sponsor-card">Sponsor 2</div>
+        <div class="sponsor-card">Sponsor 3</div>
+        <div class="sponsor-card">Sponsor 4</div>
+        <div class="sponsor-card">Sponsor 5</div>
+        <div class="sponsor-card">Sponsor 6</div>
+      </div>
+
+      <div class="cta-banner">
+        <div>
+          <h3>Want to sponsor us?</h3>
+          <p>Help fund parts, travel, and outreach. Every contribution moves us forward.</p>
+        </div>
+        <a href="#contact" class="btn btn-primary">Become a sponsor</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONTACT ====== -->
+  <section id="contact" class="section section-alt">
+    <div class="container grid-2">
+      <div>
+        <p class="section-eyebrow">Get in touch</p>
+        <h2 class="section-title">Let's talk robots.</h2>
+        <p class="lede">
+          Whether you're a future teammate, a sponsor, a mentor, or just curious — we'd love to hear from you.
+        </p>
+        <ul class="contact-list">
+          <li><span>Email</span><a href="mailto:team@example.com">team@example.com</a></li>
+          <li><span>Location</span><a>Your City, State</a></li>
+          <li><span>Instagram</span><a href="#">@ftc_team_xxxx</a></li>
+          <li><span>GitHub</span><a href="#">github.com/ftc-xxxx</a></li>
+        </ul>
+      </div>
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Thanks! Wire this up to your email service.');">
+        <label>
+          <span>Name</span>
+          <input type="text" required placeholder="Your name" />
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" required placeholder="you@example.com" />
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea rows="5" required placeholder="What would you like to talk about?"></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary">Send message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="brand">
+          <span class="brand-mark">⚙</span>
+          <span class="brand-text">Curry <span class="accent">Coders</span></span>
+        </div>
+        <p class="muted">FIRST Tech Challenge · Built by students.</p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <h5>Site</h5>
+          <a href="#about">About</a>
+          <a href="#team">Team</a>
+          <a href="#robot">Robot</a>
+        </div>
+        <div>
+          <h5>Community</h5>
+          <a href="#sponsors">Sponsors</a>
+          <a href="#goals">Goals</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <h5>Follow</h5>
+          <a href="#">Instagram</a>
+          <a href="#">YouTube</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p class="muted">© <span id="year"></span> Curry Coders · Team #XXXX. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
