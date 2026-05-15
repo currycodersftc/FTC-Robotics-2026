@@ -532,6 +532,48 @@ a:hover { color: var(--accent); }
   font-weight: 600;
 }
 
+.contact-dropdown { display: block !important; padding: 0 !important; }
+.contact-dropdown details { width: 100%; }
+.contact-dropdown summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+.contact-dropdown summary::-webkit-details-marker { display: none; }
+.contact-dropdown .dd-label {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  color: var(--text);
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.contact-dropdown .dd-caret {
+  transition: transform .2s ease;
+  color: var(--accent);
+  font-size: .9rem;
+}
+.contact-dropdown details[open] .dd-caret { transform: rotate(180deg); }
+.contact-dropdown .dd-list {
+  list-style: none;
+  padding: .25rem 0 1rem;
+  margin: 0;
+  display: grid;
+  gap: .5rem;
+}
+.contact-dropdown .dd-list li {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  border: 0;
+}
+
 .contact-form {
   display: grid;
   gap: 1.25rem;
